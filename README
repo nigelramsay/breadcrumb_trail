@@ -3,9 +3,6 @@ BreadcrumbTrail
 
 Adds a breadcrumb trail to your Rails application.
 
-Example
-=======
-
 In your controller's action method:
 
   add_crumb :label => 'Admin', :link => administrators_path
@@ -25,4 +22,9 @@ Generates something like:
   <li>Nigel Ramsay</li>
 </ol>
 
-Copyright (c) 2008 [Able Technology Limited], released under the MIT license
+Style
+-----
+
+You should use CSS to style the breadcrumb trail. See the example in public/stylesheets.
+
+Copyright (c) 2008 Able Technology Limited, released under the MIT license
