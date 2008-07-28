@@ -1,13 +1,28 @@
 BreadcrumbTrail
 ===============
 
-Introduction goes here.
-
+Adds a breadcrumb trail to your Rails application.
 
 Example
 =======
 
-Example goes here.
+In your controller's action method:
 
+  add_crumb :label => 'Admin', :link => administrators_path
+  add_crumb :label => 'Users', :link => admin_users_path
+  add_crumb :label => @user.name
 
-Copyright (c) 2008 [name of plugin creator], released under the MIT license
+In your layout file:
+
+  <%= crumbs %>
+  
+Generates something like:
+
+<ol class="breadcrumb">
+  <li class="first"><a href="/">Home</a></li>
+  <li><a href="/administrators">Admin</a></li>
+  <li><a href="/admin/users">Users</a></li>
+  <li>Nigel Ramsay</li>
+</ol>
+
+Copyright (c) 2008 [Able Technology Limited], released under the MIT license

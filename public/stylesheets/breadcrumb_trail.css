@@ -1,0 +1,16 @@
+/* breadcrumb */
+
+ol.breadcrumb {
+  margin: 0;
+}
+
+ol.breadcrumb li {
+  display: inline;
+  padding: 0 3px 0 15px;
+  background: transparent url(/images/greater_than.gif) left center no-repeat;
+}
+
+ol.breadcrumb li.first {
+  padding-left: 0;
+  background: none;
+}
