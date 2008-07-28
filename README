@@ -1,5 +1,5 @@
-BreadcrumbTrail
-===============
+Breadcrumb Trail
+================
 
 Adds a breadcrumb trail to your Rails application.
 
@@ -27,4 +27,4 @@ Style
 
 You should use CSS to style the breadcrumb trail. See the example in public/stylesheets.
 
-Copyright (c) 2008 Able Technology Limited, released under the MIT license
+Copyright (c) 2008 Able Technology Limited (http://www.abletech.co.nz/blog), released under the MIT license
