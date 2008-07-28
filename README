@@ -3,13 +3,13 @@ Breadcrumb Trail
 
 Adds a breadcrumb trail to your Rails application.
 
-In your controller's action method:
+In your action:
 
   add_crumb :label => 'Admin', :link => administrators_path
   add_crumb :label => 'Users', :link => admin_users_path
   add_crumb :label => @user.name
 
-In your layout file:
+In your layout or view:
 
   <%= crumbs %>
   
