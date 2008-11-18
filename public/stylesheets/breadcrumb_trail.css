@@ -2,6 +2,7 @@
 
 ol.breadcrumb {
   margin: 0;
+  clear: both;
 }
 
 ol.breadcrumb li {
